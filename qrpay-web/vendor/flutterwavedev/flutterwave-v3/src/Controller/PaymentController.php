@@ -98,9 +98,9 @@ final class PaymentController
         $payment = $_SESSION['p'];
 
         // $payment::setUp([
-        //     'secret_key' => '***REMOVED***TEST-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X',
+        //     'secret_key' => 'FLWSECK_TEST-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X',
         //     'public_key' => 'FLWPUBK_TEST-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X',
-        //     'encryption_key' => '***REMOVED***XXXXXXXXXXXXXXXX',
+        //     'encryption_key' => 'FLWSECK_XXXXXXXXXXXXXXXX',
         //     'environment' => 'staging'
         // ]);
 

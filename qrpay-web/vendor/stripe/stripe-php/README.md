@@ -53,7 +53,7 @@ If you use Composer, these dependencies should be handled automatically. If you 
 Simple usage looks like:
 
 ```php
-$stripe = new \Stripe\StripeClient('***REMOVED***BQokikJOvBiI2HlWgH4olfQ2');
+$stripe = new \Stripe\StripeClient('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
 $customer = $stripe->customers->create([
     'description' => 'example customer',
     'email' => 'email@example.com',
@@ -159,12 +159,12 @@ per-request key and/or account:
 
 ```php
 $customers = $stripe->customers->all([],[
-    'api_key' => '***REMOVED***...',
+    'api_key' => 'sk_test_...',
     'stripe_account' => 'acct_...'
 ]);
 
 $stripe->customers->retrieve('cus_123456789', [], [
-    'api_key' => '***REMOVED***...',
+    'api_key' => 'sk_test_...',
     'stripe_account' => 'acct_...'
 ]);
 ```
