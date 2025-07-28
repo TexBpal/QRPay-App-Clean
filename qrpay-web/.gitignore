@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+.env
+.DS_Store
+
+# Composer
+/vendor/
+composer.lock
+
+# VSCode settings
+.vscode/
