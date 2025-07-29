@@ -12,10 +12,6 @@ if (PHP_INT_SIZE !== 8) {
     $issues[] = 'Your Composer dependencies require a 64-bit build of PHP.';
 }
 
-if (PHP_INT_SIZE !== 8) {
-    $issues[] = 'Your Composer dependencies require a 64-bit build of PHP.';
-}
-
 if ($issues) {
     if (!headers_sent()) {
         header('HTTP/1.1 500 Internal Server Error');
