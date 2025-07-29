@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Composer PHP
+/vendor/
+composer.lock
+
+# VSCode
+.vscode/
+
+# dotenv
+.env
+
+# Logs
+logs/
+*.log
+
+# OS junk
+Thumbs.db
+
+# Others
+.idea/
+*.swp
+
+# Dist
+dist/
+build/
+
