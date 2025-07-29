@@ -1,11 +1,13 @@
 # Node modules
 node_modules/
-.env
+# OS X system files
 .DS_Store
 
-# Composer
+# Composer dependencies
 /vendor/
-composer.lock
+
+# Laravel environment files
+.env
 
 # VSCode settings
 .vscode/
